@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animals Adoption</title>
+    <link rel= "stylesheet" href="styles.css" />
+    <script type="module" src="main.js">
+     import {handleClick} from "main.js"
+    </script>
+    
+</head>
+<body>
+    <div class="header">
+        <h1 class="heading">
+            Welcome.
+        </h1>
+        <p>Our friends need a home</p>
+    </div>
+    <div class="links">
+        <a href="#" id="allAnimals" onclick="handleClick(allAnimals)">All Animals</a>
+        <a href="#" id="Dog" onclick="handleClick(Dog)">Dogs</a>
+        <a href="#" id="Cat" onclick="handleClick(Cat)">Cats</a>
+        <a href="#" id="Rabbit" onclick="handleClick(Rabbit)">Rabbits</a>
+    </div>
+
+    <div class="animals"></div>
+
+
+    <template class="animal-card"> 
+       <div class="animal-card">
+         <div class="divanimal-photo">
+           <img src="" alt="Dog Image" /> 
+       </div>
+      <div class="animal-descp">
+         <h1></h1>
+         <span class="birthyear"></span><span class="species"></span>
+         <p class="description">Meowsalot is a talkative friend that loves to play and is great with children. He is looking for a forever home today!</p>
+         <button class="adopt-btn"></button>
+      </div>
+    </div>
+    
+</template>
+    
+    
+
+ 
+</body>
+</html>
