@@ -73,3 +73,5 @@ pets.forEach(pet => {
 
 });
 document.querySelector(".animals").appendChild(wrapper);
+
+window.handleClick = handleClick;
